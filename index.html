@@ -237,16 +237,25 @@
 
         <section class="cta section">
           <div class="container">
-            <div class="cta-inner section-inner">
+            <form
+              class="cta-form"
+              action="https://formspree.io/f/xpzkdevb"
+              method="POST"
+            >
               <h3 class="section-title mt-0">Still have questions?</h3>
-              <div class="cta-cta">
-                <a class="button button-primary button-wide-mobile" href="#"
-                  >Get in touch</a
-                >
-              </div>
-            </div>
+              <label class="label-primary mt-16">
+                Your email:
+                <input class="input-primary mt-8" type="email" name="_replyto">
+              </label>
+              <label class="label-primary mt-16">
+                Your message:
+                <textarea rows=5 class="input-primary mt-8" name="message"></textarea>
+              </label>
+              <button class="button button-primary button-wide-mobile mt-56" type="submit">Send</button>
+            </form>
           </div>
         </section>
+
       </main>
 
       <footer class="site-footer">
