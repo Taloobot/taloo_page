@@ -1,5 +1,4 @@
-# Solid
-
+# Taloobot
 A landing page template.
 
 * [Getting started](#getting-started)
